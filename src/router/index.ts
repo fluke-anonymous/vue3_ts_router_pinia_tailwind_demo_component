@@ -9,16 +9,16 @@ const router = createRouter({
       name: 'home',
       component: Layout,
       children: [
-        {path:'', component: HomeView},
-        {path:'about', component: () => import('../views/AboutView.vue')},
-        {path:'promotion', component: () => import('../views/PromotionView.vue')},
-        {path:'product', component: () => import('../views/ProductView.vue')},
-        {path:'product/id', component: () => import('../views/ProductItemView.vue')},
-        {path:'article', component: () => import('../views/ArticleView.vue')},
-        {path:'contact', component: () => import('../views/ContactView.vue')},
-        {path:'demo', component: () => import('../views/DemoView.vue')},
+        { path: '', component: HomeView },
+        { path: 'about', component: () => import('../views/AboutView.vue') },
+        { path: 'promotion', component: () => import('../views/PromotionView.vue') },
+        { path: 'product', component: () => import('../views/ProductView.vue') },
+        { path: 'product/id', component: () => import('../views/ProductItemView.vue') },
+        { path: 'article', component: () => import('../views/ArticleView.vue') },
+        { path: 'contact', component: () => import('../views/ContactView.vue') }
+        // { path: 'demo', component: () => import('../views/DemoView.vue') }
       ]
-    },
+    }
     // {
     //   path: '/about',
     //   name: 'about',
