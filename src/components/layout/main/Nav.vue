@@ -93,7 +93,9 @@ import { RouterLink } from 'vue-router'
                         style="vertical-align: inherit;">
                         <font
                             style="vertical-align: inherit;">
-                            ผลงานของนุ๊ก
+
+                            Primrachat
+                            Job
                         </font>
                     </font>
                 </span>
